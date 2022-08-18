@@ -1,0 +1,8 @@
+auth0:
+  audience: http://messages.demo
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-6neawr-h.us.auth0.com/
